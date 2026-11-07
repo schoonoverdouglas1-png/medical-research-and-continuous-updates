@@ -1,8 +1,8 @@
 # Index — GitHub Master, All Repos (2026-11-07)
 
 Owner: Douglas Roy Schoonover — GitHub account `schoonoverdouglas1-png`
-Built: Nov 7, 2026, by Ember (Muse), read-only scan of all repos, plus this index file itself.
-Purpose: so Ember can access everything in GitHub easily from Muse — one line per file, grouped by repo, then topic. Read a file back with the GitHub tool by repo + path; do not guess URLs.
+Built: Nov 7, 2026, by Ember (Muse). First build: read-only GitHub-tool scan. This version: rebuilt from `git clone --depth 1` of the 9 public repos into `/tmp/github-dump`, scanned locally with `find`/`grep`, plus the 2 Private repos (`research`, `chat-archive`) read via the GitHub tool — their clones fail without git auth, as expected for Private repos; do not force them.
+Purpose: so Ember can access everything in GitHub easily from Muse — one line per file, grouped by repo, then topic. Read a file back with the GitHub tool by repo + path, or from the local clones in `/tmp/github-dump`; do not guess URLs.
 
 ## How Ember accesses this
 - Hub repo: `medical-research-and-continuous-updates` — new imports land here first.
@@ -10,14 +10,19 @@ Purpose: so Ember can access everything in GitHub easily from Muse — one line 
 - Rules kept: no Cara material, no full lab PDFs (DOB/MRN), no passwords/codes/IDs. Public repos are public — nothing private goes there. `chat-archive` and `research` are Private; the other 9 are Public.
 - Old with new: corrected copies are new files; originals are not overwritten.
 
-## Totals
+## Totals (from the git clones, Nov 7, 2026, ~22:47 UTC)
 - Repos: 11
-- Files counted: 72 (before this index file; 73 with it)
-- Total size counted: 695,473 bytes (~679 KB)
-- Files by repo: medical-research-and-continuous-updates 26 · vaccine-toxoid-research 12 · the-mycelial-transposition 7 · research 7 · ai-supercomputer-history 7 · chat-archive 3 · historical-modern-therapeutics-of-disease-nomenclature 2 · medical-elements-and-thoughtology 2 · serotype-disease-groupings 2 · change-of-address 2 · quantum-medicine 2
+- Files counted: 77 (including this index file itself)
+  - 9 public repos cloned: 67 files
+  - `research` (Private, via GitHub tool): 7 files
+  - `chat-archive` (Private, via GitHub tool): 3 files
+- Total size counted: 745,858 bytes (~728 KB) — clones 735,721 + research 6,756 + chat-archive 3,381
+- Files by repo: medical-research-and-continuous-updates 31 · vaccine-toxoid-research 12 · the-mycelial-transposition 7 · research 7 · ai-supercomputer-history 7 · chat-archive 3 · historical-modern-therapeutics-of-disease-nomenclature 2 · medical-elements-and-thoughtology 2 · serotype-disease-groupings 2 · change-of-address 2 · quantum-medicine 2
+
+Count reconciliation: Douglas counted medical-research-and-continuous-updates at 28 files earlier in the evening; the clone now shows 31. The difference is timing, not an error in either count — 4 files landed after the first index build (ChatGPT Summarize Pneumococcal Findings, Claude Resume previous project study, Duck.ai Gemma 4 31B gated, Gemini Unifying Antigenic Architecture and Immunity), plus this index file itself. All 5 are listed below. The other 8 public repos match his counts exactly.
 
 ## Repo status at a glance
-- Fullest: `medical-research-and-continuous-updates` (26 files, all Nov 7, 2026 AI imports/lists/assessment) and `vaccine-toxoid-research` (12 files, Nov 4–7).
+- Fullest: `medical-research-and-continuous-updates` (31 files, all Nov 7, 2026 AI imports/lists/assessment/index) and `vaccine-toxoid-research` (12 files, Nov 4–7).
 - Has manuscript content: `the-mycelial-transposition` (5 content files, Oct 31–Nov 4).
 - Starter only: `research` (Private) and `ai-supercomputer-history` (Public) — identical 7-file AI-history starter set (see Duplicates).
 - Thin / empty: 5 book repos hold only `COPYRIGHT.md` + an empty `README.md` (0 bytes) — `historical-modern-therapeutics-of-disease-nomenclature`, `medical-elements-and-thoughtology`, `serotype-disease-groupings`, `change-of-address`, `quantum-medicine`. No manuscript or research content in them yet.
@@ -41,7 +46,7 @@ Purpose: so Ember can access everything in GitHub easily from Muse — one line 
 
 ---
 
-## 1. medical-research-and-continuous-updates — Public — 26 files
+## 1. medical-research-and-continuous-updates — Public — 31 files
 Repo: https://github.com/schoonoverdouglas1-png/medical-research-and-continuous-updates
 Description: "Medical research and continuous updates". Created Nov 7, 2026. Hub repo — new imports land here first.
 
@@ -53,6 +58,10 @@ Description: "Medical research and continuous updates". Created Nov 7, 2026. Hub
 | Import — ChatGPT Chats List, Signed In Nov 7 (2026-11-07).md | 2026-11-07 | AI import — ChatGPT chats list (pinned + recents, SP23D / toxoid titles) | Filed |
 | Import — ChatGPT, Clinical review of SP23D (2026-11-07).md | 2026-11-07 | SP23D — ChatGPT clinical review: 9.7 breaks, 0.3 breaks, PBP/mecA correction, PCV21/20A audit; "research framework, not yet clinical protocol" | Filed — review [D, ChatGPT] + Ember note |
 | Import — ChatGPT, Vaccine Toxoid Research Summary (2026-11-07).md | 2026-11-07 | Vaccine / toxoid — ChatGPT audit of 8-pathogen matrix, evidence grades A–C, Matrix 2.0 proposed; GitHub permission prompt left unclicked | Filed |
+| Import — ChatGPT, Summarize Pneumococcal Findings (2026-11-07).md | 2026-11-07 | Serotype — ChatGPT summary of the Nov 4 Duck.ai Final Multi-Model Assimilation (7 runs, 6 model families): models agree on classification, do NOT agree enough on disease-by-serotype patterns for definitive clinical rankings; 32-union is calculated, not official; recommends against publishing one universal disease-by-serotype ranking | Filed |
+| Import — Claude, Resume previous project study (2026-11-07).md | 2026-11-07 | AI import — Claude dead-end chat: Douglas asked to resume a "deep project" he could not find; Claude said it would look, never reported back; no study content in chat | Filed — no content resumed; "deep project" still unidentified |
+| Import — Duck.ai, Analyze serotype groupings, Gemma 4 31B, gated (2026-11-07).md | 2026-11-07 | Serotype — Duck.ai Gemma 4 31B run, NO assistant answer: stopped at "Enable web search for this chat?" gate; neither option clicked; Douglas decides Enable / No Thanks | Filed — gated, no answer yet |
+| Import — Gemini, Unifying Antigenic Architecture and Immunity (2026-11-07).md | 2026-11-07 | Serotype / vaccine — Gemini: antigenic architecture as common language, serogroup = low resolution / serotype = high resolution, Carrier Bridge Matrix TT/DT/CRM197 across pneumococcus, meningococcus, Hib, Cryptococcus; FLAG: matrix lists TT for pneumococcal 18C and DT for 19F (Synflorix carriers) — do not merge into Prevnar, whose carriers are CRM197 only | Filed — [PARTIAL] on carrier row, product distinction needed |
 | Import — Claude Chats List, Signed In Nov 7 (2026-11-07).md | 2026-11-07 | AI import — Claude chats list (11 chats, "Doug · Free") | Filed |
 | Import — Claude, Medical research project (2026-11-07).md | 2026-11-07 | AI import — Claude Medical research project (1 chat, no files/instructions/memory yet) | Filed |
 | Import — Claude, Multi-file research bundle upload (2026-11-07).md | 2026-11-07 | AI import — Claude bundle upload (posters, bundle PDF, scripts/assimilation/framework files); convergence = soft signal only | Filed |
@@ -68,6 +77,7 @@ Description: "Medical research and continuous updates". Created Nov 7, 2026. Hub
 | Import-Gemini-Share-GitHub-Code-Assistance-Fungal-Analogues-2026-11-07.md | 2026-11-07 | Fungal analogues — Gemini source of Nov 5 fungal analogues work | Filed |
 | Import-Gemini-Share-Pathogenic-Convergence-and-Immune-Architecture-PROPOSED-SP23D-Brief-2026-11-07.md | 2026-11-07 | SP23D — finalised PROPOSED SP23D brief Douglas pasted to Meta AI Nov 7, 06:35 | Filed |
 | Import-Gemini-Share-Understanding-Hemophilia-Types-and-Treatments-2026-11-07.md | 2026-11-07 | Hemophilia / manuscript — Hemophilia A/B, von Willebrand, Quest panel, Unified Relativity Architecture | Filed |
+| Index — GitHub Master, All Repos (2026-11-07).md | 2026-11-07 | Index — this file: one line per file across all 11 repos, built from git clones + GitHub tool for the 2 Private repos | Filed — this index |
 | List — AIs I Have Worked With (2026-11-07).md | 2026-11-07 | List — 9 AIs (Muse/Ember, Meta, Gemini, Claude, ChatGPT, Duck.ai, Copilot, Perplexity, NotebookLM) | Filed |
 | List — Duck.ai Models, Independent Look (2026-11-07).md | 2026-11-07 | List — Duck.ai models looked at independently (used runs + selector list; each model usable elsewhere on its own) | Filed |
 | List-Apps-Shared-To-and-From-Gemini-Muse-and-Meta-Chats-2026-11-07.md | 2026-11-07 | List — 106 distinct links Jan 1–Nov 7 (Gemini 30, Meta 30 blocked, Google 15, Muse 9, Copilot 2, YouTube 5, Facebook 15); 61 still unread/blocked | Filed |
@@ -199,4 +209,4 @@ Description: "Quantum Medicine — Hippocratic methodology and scientific method
 4. Rebuild this index whenever a repo gains files — date-stamp the new copy, keep this one beside it.
 5. This index itself lives at: `medical-research-and-continuous-updates` / `Index — GitHub Master, All Repos (2026-11-07).md`, and in the Muse workspace at `~/workspace/your_files/Index — GitHub Master, All Repos (2026-11-07).md`.
 
-Provenance: read-only GitHub scan Nov 7, 2026 (search_repositories + get_file_contents, recursive), plus repo READMEs read back the same day. No files deleted, no repos edited except this index. No Cara material, no full lab PDFs, no passwords/codes/IDs.
+Provenance: first build Nov 7, 2026, read-only GitHub-tool scan (search_repositories + get_file_contents, recursive). This version rebuilt the same day from `git clone --depth 1` of the 9 public repos into `/tmp/github-dump` (67 files), scanned locally with `find`/`grep`, plus `research` and `chat-archive` read via the GitHub tool (Private repos; clones fail without git auth, as expected — not forced). Grep check on the clones: "Cara"/"Kira"/password/DOB/MRN hits are only the standing-rule footers ("No Cara material, no full lab PDFs, no passwords/codes/IDs") and the Serology book's "No information about Cara appears anywhere in this book" — no Cara content, no lab PDFs, no credentials in the repos. No files deleted, no repos edited except this index.
