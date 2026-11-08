@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Sheet — Viruses, Molds, and Immunoglobulins at Scale</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color: #1a1a1a; margin: 0 auto; max-width: 1020px; padding: 18px; line-height: 1.45; }
+  h1 { font-size: 26px; margin-bottom: 2px; }
+  .sub { color: #555; margin-top: 0; }
+  .simply { background: #f0f7ee; border-left: 5px solid #4a7c3a; padding: 12px 16px; margin: 18px 0; }
+  .panel { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin: 20px 0; }
+  .panel h2 { margin-top: 0; font-size: 19px; }
+  .note { color: #444; font-size: 14px; }
+  .callout { background: #fdf6e3; border-left: 5px solid #b58900; padding: 10px 14px; margin: 14px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { border: 1px solid #ccc; padding: 7px 9px; text-align: left; vertical-align: top; }
+  th { background: #f2f2f2; }
+  .virus { color: #0b5e7a; } .fungus { color: #5a6b1f; } .ig { color: #6b3fa0; }
+  .legend span { margin-right: 16px; }
+  .flex { display: flex; gap: 16px; flex-wrap: wrap; }
+  .mini { border: 1px solid #ddd; border-radius: 8px; padding: 10px; flex: 1; min-width: 260px; text-align: center; }
+  .mini p { font-size: 13px; margin: 8px 0 0 0; }
+  .foot { font-size: 13px; color: #555; }
+  svg { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+
+<h1>One Sheet — Viruses, Molds, and Immunoglobulins at Scale</h1>
+<p class="sub">Built Oct 31, 2026, for Douglas — SARS, SARS-CoV-2, Aspergillus, dematiaceous black mold, and the immunoglobulins IgG, IgA, and IgM, on one sheet.</p>
+
+<div class="simply"><b>Simply put:</b> An antibody is about 15 nanometers across. A coronavirus is about 100 nanometers, roughly 7 times wider. A mold spore is 2,500 to 10,000 nanometers, roughly 25 to 100 times wider than the virus. You are looking at a ladder where every big step is 10 times bigger — and the antibody's grabbing fingers sit at the very bottom of it.</div>
+
+<div class="panel">
+<h2>Panel A — The ladder (log scale: each big step is 10× bigger)</h2>
+<p class="legend"><span class="virus">■ Virus</span> <span class="fungus">■ Fungus</span> <span class="ig">■ Immunoglobulin</span> <span>■ Scale anchor</span></p>
+<svg viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Log scale ladder from 1 nanometer to 100 micrometers">
+  <!-- axis -->
+  <line x1="60" y1="150" x2="940" y2="150" stroke="#333" stroke-width="2"/>
+  <!-- decade ticks -->
+  <g font-size="13" fill="#333" text-anchor="middle">
+    <line x1="60" y1="144" x2="60" y2="156" stroke="#333" stroke-width="2"/><text x="60" y="175">1 nm</text>
+    <line x1="236" y1="144" x2="236" y2="156" stroke="#333" stroke-width="2"/><text x="236" y="175">10 nm</text>
+    <line x1="412" y1="144" x2="412" y2="156" stroke="#333" stroke-width="2"/><text x="412" y="175">100 nm</text>
+    <line x1="588" y1="144" x2="588" y2="156" stroke="#333" stroke-width="2"/><text x="588" y="175">1 µm</text>
+    <line x1="764" y1="144" x2="764" y2="156" stroke="#333" stroke-width="2"/><text x="764" y="175">10 µm</text>
+    <line x1="940" y1="144" x2="940" y2="156" stroke="#333" stroke-width="2"/><text x="940" y="175">100 µm</text>
+  </g>
+  <!-- dots -->
+  <g>
+    <circle cx="264" cy="150" r="7" fill="#6b3fa0"/><circle cx="276" cy="150" r="7" fill="#6b3fa0"/><circle cx="320" cy="150" r="8" fill="#6b3fa0"/>
+    <circle cx="418" cy="150" r="8" fill="#0b5e7a"/><circle cx="419" cy="150" r="8" fill="#0b5e7a" opacity="0.55"/>
+    <circle cx="588" cy="150" r="7" fill="#333"/><circle cx="658" cy="150" r="8" fill="#5a6b1f"/><circle cx="764" cy="150" r="8" fill="#5a6b1f"/>
+    <circle cx="817" cy="150" r="7" fill="#333"/><circle cx="918" cy="150" r="7" fill="#333"/>
+  </g>
+  <!-- above labels -->
+  <g font-size="14" text-anchor="middle">
+    <line x1="264" y1="143" x2="264" y2="118" stroke="#6b3fa0"/><text x="264" y="106" font-weight="bold" fill="#6b3fa0">IgG ~14.5 nm</text><text x="264" y="124" font-size="12" fill="#333">150 kDa, 1 Y</text>
+    <line x1="418" y1="143" x2="418" y2="118" stroke="#0b5e7a"/><text x="418" y="106" font-weight="bold" fill="#0b5e7a">SARS-CoV-2 ~108 nm</text>
+    <line x1="588" y1="143" x2="588" y2="118" stroke="#333"/><text x="588" y="106" font-weight="bold">Bacterium ~1 µm</text>
+    <line x1="764" y1="143" x2="764" y2="118" stroke="#5a6b1f"/><text x="764" y="106" font-weight="bold" fill="#5a6b1f">Black mold spore 7–12 µm</text>
+    <line x1="918" y1="143" x2="918" y2="118" stroke="#333"/><text x="918" y="106" font-weight="bold">Hair ~75 µm</text>
+  </g>
+  <!-- below labels, depth 1 -->
+  <g font-size="14" text-anchor="middle">
+    <line x1="276" y1="157" x2="276" y2="188" stroke="#6b3fa0"/><text x="276" y="202" font-weight="bold" fill="#6b3fa0">Secretory IgA ~17 nm</text><text x="276" y="219" font-size="12" fill="#333">dimer, ~390 kDa</text>
+    <line x1="658" y1="157" x2="658" y2="188" stroke="#5a6b1f"/><text x="658" y="202" font-weight="bold" fill="#5a6b1f">Aspergillus spore 2–3 µm</text>
+  </g>
+  <!-- below, SARS-CoV right-anchored -->
+  <g font-size="14">
+    <line x1="419" y1="157" x2="419" y2="188" stroke="#0b5e7a"/><text x="430" y="202" font-weight="bold" fill="#0b5e7a">SARS-CoV 80–140 nm</text>
+  </g>
+  <!-- below, depth 2 -->
+  <g font-size="14" text-anchor="middle">
+    <line x1="320" y1="157" x2="320" y2="238" stroke="#6b3fa0"/><text x="320" y="252" font-weight="bold" fill="#6b3fa0">IgM pentamer ~30 nm</text><text x="320" y="269" font-size="12" fill="#333">900 kDa, 5 Y units</text>
+    <line x1="817" y1="157" x2="817" y2="238" stroke="#333"/><text x="817" y="252" font-weight="bold">Human cell ~20 µm</text>
+  </g>
+  <text x="418" y="300" font-size="13" font-style="italic" fill="#333" text-anchor="middle">The two coronaviruses share one mark: size alone cannot tell them apart.</text>
+</svg>
+<p class="note">How to read it: the ladder is logarithmic, so equal distances mean equal multiplications (10× per big step), not equal sizes. That is the only way a 15-nanometer antibody and a 10-micrometer spore fit on one line. True linear comparisons are in Panel C.</p>
+</div>
+
+<div class="panel">
+<h2>Panel B — The immunoglobulin: its three parts (enlarged diagram, not to ladder scale)</h2>
+<svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Y-shaped antibody diagram with Fab arms and Fc stem labeled">
+  <!-- Y shape: Fab arms amber, Fc stem purple -->
+  <line x1="300" y1="210" x2="205" y2="95" stroke="#d9930d" stroke-width="30" stroke-linecap="round"/>
+  <line x1="300" y1="210" x2="395" y2="95" stroke="#d9930d" stroke-width="30" stroke-linecap="round"/>
+  <line x1="300" y1="210" x2="300" y2="330" stroke="#6b3fa0" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="205" cy="95" r="15" fill="#d9930d"/><circle cx="395" cy="95" r="15" fill="#d9930d"/>
+  <circle cx="300" cy="210" r="10" fill="#333"/>
+  <!-- labels left -->
+  <g font-size="14">
+    <line x1="195" y1="85" x2="120" y2="50" stroke="#333"/><text x="115" y="45" font-weight="bold" text-anchor="end">Antigen binding site</text><text x="115" y="63" text-anchor="end">CDRs — the grabbing fingers</text>
+    <line x1="235" y1="150" x2="120" y2="150" stroke="#333"/><text x="115" y="145" font-weight="bold" text-anchor="end">Fab arm 1</text><text x="115" y="163" text-anchor="end">variable region (VH + VL)</text>
+    <line x1="290" y1="270" x2="120" y2="270" stroke="#333"/><text x="115" y="265" font-weight="bold" text-anchor="end">Fc stem</text><text x="115" y="283" text-anchor="end">constant domains, talks to cells</text><text x="115" y="301" text-anchor="end">and complement</text>
+  </g>
+  <!-- labels right -->
+  <g font-size="14">
+    <line x1="405" y1="85" x2="480" y2="50" stroke="#333"/><text x="485" y="45" font-weight="bold">Fab arm 2</text><text x="485" y="63">same build, second grip</text>
+    <line x1="310" y1="205" x2="480" y2="150" stroke="#333"/><text x="485" y="145" font-weight="bold">Hinge</text><text x="485" y="163">lets both arms flex and grab</text>
+    <line x1="312" y1="240" x2="480" y2="250" stroke="#333"/><text x="485" y="245" font-weight="bold">Heavy chain ×2</text><text x="485" y="263">runs the full Y, ~50 kDa each</text>
+    <line x1="260" y1="160" x2="480" y2="330" stroke="#333"/><text x="485" y="325" font-weight="bold">Light chain ×2 (κ or λ)</text><text x="485" y="343">along the arms, ~25 kDa each</text>
+  </g>
+</svg>
+<div class="callout"><b>The three parts, exactly:</b> cutting an antibody with the enzyme papain yields three fragments — <b>two identical Fab fragments</b> (the arms, antigen-binding) and <b>one Fc fragment</b> (the stem, crystallizable). That is the three-part answer: Fab + Fab + Fc. The Fab tips, with their CDR loops, are the textbook name for your scrubber's grabbing fingers.</div>
+<div class="flex">
+  <div class="mini">
+    <svg viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg"><g stroke="#6b3fa0" stroke-width="10" stroke-linecap="round"><line x1="100" y1="70" x2="60" y2="20"/><line x1="100" y1="70" x2="140" y2="20"/><line x1="100" y1="70" x2="100" y2="120"/></g></svg>
+    <p><b>IgG — 1 Y.</b> Monomer, 150 kDa, ~14.5 nm. About 75% of serum immunoglobulin.</p>
+  </div>
+  <div class="mini">
+    <svg viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg"><g stroke="#6b3fa0" stroke-width="8" stroke-linecap="round"><line x1="70" y1="60" x2="40" y2="20"/><line x1="70" y1="60" x2="100" y2="20"/><line x1="70" y1="60" x2="70" y2="100"/><line x1="130" y1="60" x2="100" y2="20"/><line x1="130" y1="60" x2="160" y2="20"/><line x1="130" y1="60" x2="130" y2="100"/><line x1="70" y1="100" x2="130" y2="100"/></g><text x="100" y="125" font-size="12" text-anchor="middle">J chain link</text></svg>
+    <p><b>Secretory IgA — 2 Y + J chain.</b> Dimer, ~390 kDa, ~17 nm. The mucosal antibody.</p>
+  </div>
+  <div class="mini">
+    <svg viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg"><g stroke="#6b3fa0" stroke-width="7" stroke-linecap="round"><line x1="100" y1="65" x2="100" y2="15"/><line x1="100" y1="65" x2="147" y2="50"/><line x1="100" y1="65" x2="129" y2="112"/><line x1="100" y1="65" x2="71" y2="112"/><line x1="100" y1="65" x2="53" y2="50"/></g><circle cx="100" cy="65" r="12" fill="#6b3fa0"/></svg>
+    <p><b>IgM — 5 Y + J chain.</b> Pentamer, 900 kDa, ~30 nm across, 10 binding sites. The largest antibody.</p>
+  </div>
+</div>
+<p class="note">Mini diagrams are schematic, not to scale. IgM's real shape is a mushroom/star, not flat — its five Fab arms point outward from a central Fc core.</p>
+</div>
+
+<div class="panel">
+<h2>Panel C — True linear scale (no logarithms; widths are honest)</h2>
+<p><b>Nano strip, 0–150 nm</b> (5 pixels per nanometer). Here the ratios are real: IgM is about twice IgG, and a coronavirus is about 7 times IgG.</p>
+<svg viewBox="0 0 1000 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linear nano scale bars">
+  <g font-size="14">
+    <text x="10" y="35" font-weight="bold" fill="#6b3fa0">IgG 14.5 nm</text><rect x="150" y="22" width="72" height="22" fill="#6b3fa0"/>
+    <text x="10" y="75" font-weight="bold" fill="#6b3fa0">IgA ~17 nm</text><rect x="150" y="62" width="85" height="22" fill="#6b3fa0"/>
+    <text x="10" y="115" font-weight="bold" fill="#6b3fa0">IgM ~30 nm</text><rect x="150" y="102" width="150" height="22" fill="#6b3fa0"/>
+    <text x="10" y="155" font-weight="bold" fill="#0b5e7a">SARS-CoV-2 ~108 nm</text><rect x="150" y="142" width="540" height="22" fill="#0b5e7a"/>
+  </g>
+</svg>
+<p><b>Micro strip, 0–12 µm</b> (60 pixels per micrometer). On this strip a coronavirus (0.108 µm) would be 6 pixels wide — a dot. That is why Panel A uses a log scale.</p>
+<svg viewBox="0 0 1000 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linear micro scale bars">
+  <g font-size="14">
+    <text x="10" y="35" font-weight="bold">Bacterium ~1 µm</text><rect x="190" y="22" width="60" height="22" fill="#333"/>
+    <text x="10" y="75" font-weight="bold" fill="#5a6b1f">Aspergillus spore ~2.5 µm</text><rect x="190" y="62" width="150" height="22" fill="#5a6b1f"/>
+    <text x="10" y="115" font-weight="bold" fill="#5a6b1f">Black mold spore ~10 µm</text><rect x="190" y="102" width="600" height="22" fill="#5a6b1f"/>
+    <text x="10" y="155" font-weight="bold" fill="#0b5e7a">SARS-CoV-2 ~0.11 µm</text><rect x="190" y="142" width="7" height="22" fill="#0b5e7a"/><text x="205" y="158" font-size="12">← 6 pixels: a dot</text>
+  </g>
+</svg>
+</div>
+
+<div class="panel">
+<h2>Panel D — The table</h2>
+<table>
+<tr><th>Thing</th><th>What it is (organism vs disease kept separate)</th><th>Size</th><th>Notes</th></tr>
+<tr><td class="virus"><b>SARS-CoV</b></td><td>Virus behind the disease SARS (2003)</td><td>80–140 nm</td><td>Enveloped +ssRNA coronavirus, spiked envelope. Same size class as SARS-CoV-2.</td></tr>
+<tr><td class="virus"><b>SARS-CoV-2</b></td><td>Virus behind COVID-19</td><td>65–125 nm, mean 108 ± 8 nm</td><td>Enveloped +ssRNA coronavirus. About 7× wider than one IgG.</td></tr>
+<tr><td class="fungus"><b>Aspergillus</b></td><td>Fungus behind the disease aspergillosis</td><td>Spore (conidium) 2–3 µm</td><td>Airborne spore, small enough to reach the lung alveoli. Hyphae wider, 3–6 µm.</td></tr>
+<tr><td class="fungus"><b>Dematiaceous black mold</b></td><td>Dark-pigmented molds; <i>Stachybotrys chartarum</i> shown as the classic black mold</td><td>Spore 7–12 × 4–6 µm</td><td>Sticky spore heads; spores too big for deep lung penetration, unlike Aspergillus. Fragments under 1 µm also occur.</td></tr>
+<tr><td class="ig"><b>IgG</b></td><td>Immunoglobulin, monomer (1 Y)</td><td>14.5 × 8.5 × 4 nm; 150 kDa</td><td>About 75% of serum immunoglobulin. The Y in Panel B.</td></tr>
+<tr><td class="ig"><b>IgA</b></td><td>Immunoglobulin, monomer in blood, dimer in secretions</td><td>Dimer ~17 nm; monomer 160 kDa, dimer ~390 kDa</td><td>The mucosal antibody (tears, saliva, gut, airway mucus).</td></tr>
+<tr><td class="ig"><b>IgM</b></td><td>Immunoglobulin, pentamer (5 Y + J chain)</td><td>~30 nm across (range to ~35 nm); 900 kDa</td><td>Largest antibody, 10 binding sites. Too big to cross the placenta.</td></tr>
+<tr><td class="ig"><b>IgD, IgE</b></td><td>The other two human classes, for completeness</td><td>Monomers, ~180–190 kDa</td><td>IgD: B-cell signaling. IgE: allergy and parasites. Not on your arbopanel.</td></tr>
+</table>
+<p class="note">Your arbopanel reads IgG and IgM (8 analytes × 2 classes). IgA is the third class you named, and the mucosal one. General information only: what any person's result means is their clinician's call.</p>
+</div>
+
+<div class="panel">
+<h2>Panel E — Human-body things at virus size (bigger than the antibodies, about the size of SARS-CoV-2)</h2>
+<p class="note">The question this panel answers: what in the human body is microscopically larger than the immunoglobulins, and compares in size with SARS-CoV-2 (~108 nm)? The closest match sits on the same ladder mark as the coronaviruses.</p>
+<table>
+<tr><th>Human-body thing</th><th>Size</th><th>How it compares</th></tr>
+<tr><td><b>Exosome</b> (extracellular vesicle)</td><td>30–150 nm</td><td>The closest match. Your body's own membrane bubble, carrying proteins, lipids, and RNA between cells. An exosome sits right on the virus's mark — labs genuinely struggle to separate small exosomes from small viruses by size alone.</td></tr>
+<tr><td><b>Microvillus</b> (width)</td><td>~100–120 nm wide, ~3 µm long</td><td>The finger-like bristles lining gut and kidney tubules. Same width as the virus, far longer.</td></tr>
+<tr><td><b>Clathrin-coated vesicle</b></td><td>~100–150 nm</td><td>The cell's intake bubble, pulling cargo in from the surface. Same size class as the virus.</td></tr>
+<tr><td><b>Nuclear pore complex</b></td><td>~120 nm across</td><td>The gate in the nuclear envelope, about 120 megadaltons, one of the largest protein assemblies in the cell. Slightly wider than the virus.</td></tr>
+</table>
+<p class="note">The ladder from the antibodies upward: IgG ~15 nm → IgM ~30 nm → exosome, microvillus width, coated vesicle, nuclear pore ~100–120 nm (= SARS-CoV-2 ~108 nm) → secretory granules (a few hundred nm) → mitochondria (~0.5–1 µm) → whole cells (10–30 µm). Sizes in this panel are representative ranges; individual exosomes, vesicles, and pores vary.</p>
+</div>
+
+<div class="panel">
+<h2>Notes</h2>
+<ul>
+<li><b>Yes, IgA, IgG, and IgM.</b> Those are three of the five human immunoglobulin classes. The other two are IgD and IgE.</li>
+<li><b>Disease vs organism, kept separate:</b> SARS is the disease, SARS-CoV is the virus. Aspergillosis is the disease, <i>Aspergillus</i> is the fungus. The sheet pictures the organisms, labeled with their diseases beside them.</li>
+<li><b>"Dimitrious" black mold</b> reads as your ruled term <b>dematiaceous</b> (the dark-pigmented molds, your §204 ruling, Oct 17). <i>Stachybotrys chartarum</i> is drawn as its classic black-mold representative; dematiaceous molds span 80+ species across 40 genera, so spore sizes vary.</li>
+<li><b>On physicians 30 years ago:</b> fairly said, with one precision. The antibody Y was worked out decades ago (Nobel Prize, 1972). What is new is this sheet itself: cryo-electron sizes for the coronaviruses, spore measurements, and antibody dimensions, all drawn on one comparable scale. That assembly is the luxury.</li>
+<li><b>Sources for the numbers:</b> SARS-CoV-2 mean 108 ± 8 nm, cryo-electron tomography; SARS-CoV 80–140 nm, electron microscopy; <i>A. fumigatus</i> conidia 2–3 µm; <i>S. chartarum</i> conidia 7–12 × 4–6 µm; IgG 14.5 × 8.5 × 4 nm, 150 kDa; IgA dimer ~17 nm, ~390 kDa; IgM pentamer ~30 nm, 900 kDa; papain cleavage into 2 Fab + 1 Fc. Antibody dimensions vary with conformation (Y to T flex); sizes are representative, not exact for every molecule.</li>
+<li><b>Groupings:</b> virus track, fungal track, and immunoglobulin track kept separate. Shiro: PENDING (reserved, never invented).</li>
+</ul>
+<p class="foot">Built Oct 31, 2026. No person's test result is pictured or interpreted here.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+Sources read 2026-11-03 (index unless noted verified-live via browser_open):
+- WA DOH Tick Data https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/tick-data
+- WA DOH Relapsing Fever https://doh.wa.gov/you-and-your-family/illness-and-disease-z/relapsing-fever (opened)
+- WA DOH Arboviral Disease https://doh.wa.gov/public-health-provider-resources/notifiable-conditions/arboviral-disease (opened)
+- WA DOH Tickborne guideline https://doh.wa.gov/sites/default/files/2025-08/420-218-Guideline-Tickborne_0.pdf
+- OSU Tick Awareness https://ehs.oregonstate.edu/sites/ehs.oregonstate.edu/files/2026-07/Tick_and_Tick-Borne_Disease_Awareness%20.pdf
+- Oregon STRF guideline https://www.Oregon.gov/oha/PH/DISEASESCONDITIONS/COMMUNICABLEDISEASE/REPORTINGCOMMUNICABLEDISEASE/REPORTINGGUIDELINES/Documents/Soft-Tick-Relapsing-Fever.pdf
+- Mayo TIKLB https://www.mayocliniclabs.com/test-catalog/overview/618311 (opened)
+- Mayo ARBOP serum https://www.mayocliniclabs.com/test-catalog/overview/83267 (opened)
+- Mayo ABOPC CSF https://www.mayocliniclabs.com/test-catalog/overview/83897 (opened)
+- Mayo POWVB https://www.mayocliniclabs.com/test-catalog/Overview/617484 (opened)
+- Mayo BRBST https://www.mayocliniclabs.com/test-catalog/download-setup?format=pdf&unit_code=620148
+- Mayo PBORB via https://bjhlab.testcatalog.org/show/PBORB and https://prd1.mayocliniclabs.com/api/sitecore/TestCatalog/DownloadTestCatalog?testId=87973
+- Mayo CBBRP via https://test.mayocliniclabs.com/api/sitecore/TestCatalog/DownloadTestCatalog?testId=62248
+- Mayo tick-borne news/menu https://news.mayocliniclabs.com/infectious-disease/vector-borne-diseases/tick-borne-disease/?mc_id=us
+- CDC Colorado tick fever https://www.cdc.gov/colorado-tick-fever/hcp/clinical-diagnosis/ (opened)
+- APHL Arbovirus Reference Center menu Sep 2026 https://aphl.org/docs/default-source/infectious-diseases-documents/vector-borne-diseases/arbovirusreferencecenter_testmenus.pdf?sfvrsn=75ba9d05_2
+- APHL shared-service pilot FAQ https://aphl.org/docs/default-source/infectious-diseases-documents/vector-borne-diseases/arbo_sharedservicepilot_faq.pdf?sfvrsn=4de61982_1
+- Wadsworth catalog https://www.wadsworth.org/clims/test-catalog
+- Babesia duncani vector https://pmc.ncbi.nlm.nih.gov:443/articles/PMC10016146/
+- Pacific Coast tick fever https://pmc.ncbi.nlm.nih.gov:443/articles/PMC5051964/
+- Insect-specific viruses https://pmc.ncbi.nlm.nih.gov/articles/PMC6458977/ ; https://mdpi.com/1999-4915/12/9/964/xml
+- Jingmenviruses https://www.nature.com/articles/s44298-025-00106-z?error=cookies_not_supported&code=508e520a-7d55-4716-9154-290522c15fa0
+- Virus sizes NCBI https://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=mmed.section.2894
+- Equine encephalitis review https://www.dovepress.com/equine-viral-encephalitis-prevalence-impact-and-management-strategies-peer-reviewed-fulltext-article-VMRR
+- WEE decline paper summary https://d.docksci.com/western-equine-encephalitis-virus-evolutionary-analysis-of-a-declining-alphaviru_5ad7152bd64ab2605060184c.html
+No page instructions were followed; all pages treated as evidence only.
