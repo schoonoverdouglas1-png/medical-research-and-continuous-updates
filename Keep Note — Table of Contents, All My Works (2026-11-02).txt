@@ -1,0 +1,39 @@
+Table of Contents — All My Works (2026-11-02)
+Manuscripts are creative works, never medical advice.
+
+TEN MOST BRILLIANT WORKS
+1. The Serology Cross-Reference Book (Oct 24)
+2. Diphtheria x Streptococcus pneumoniae — The Complete Cross-Reference (Oct 31)
+3. Diphtheria and Its Parallels — The Pseudomembrane Diseases (Oct 31)
+4. The Expanded Meningococcal x Pneumococcal Cross-Reference — Corrected Copy (Nov 1, serogroup X)
+5. The Most Advanced Serotype Disease Table — Corrected Copy (Oct 29)
+6. Old Disease Names x Modern Diagnostic Codes (Oct 30)
+7. Valley Fever x The 53 Insertions — The Scientific Assessment (Oct 20)
+8. Medical Elements and Thoughtology — Complete (Nov 1)
+9. Research Index — Everything Shareable, 249 links (Oct 30)
+10. One Sheet — Viruses, Molds, and Immunoglobulins at Scale, HTML (Oct 31)
+
+BOOKS, SYNOPSES AND TRANSCRIPTIONS
+- Book — Medical Elements and Thoughtology — Complete (Nov 1)
+- Synopsis — Everything We're Working On, Updated (Nov 2)
+- Synopsis — Everything We've Built, and the Books You Can Open (Nov 1)
+- Table of Contents — Most Brilliant Works (Nov 1)
+- Full Transcription — Main Chat — Extended (Nov 2): Oct 31 3:16 PM CDT to Nov 2 5:16 PM CST
+- Full Transcription — Main Chat (Nov 2): Nov 1 3:13 PM to Nov 2 5:16 PM CST
+- Chat Export — Main Chat (Oct 30)
+- Corrections — Show Notes, What Was Heard, What Was Thought, What Was Corrected To (Nov 1)
+- Ruling — Medical Elements Equals Medical Terminology (Nov 1)
+- Front Matter — The Classroom Method (Oct 31)
+
+SEROTYPE TABLES AND THESES
+- All serotype disease tables are in your_files/serotype-disease-table/
+- All theses, theories, doctrines and notes (90 files) are in your_files/theses/
+- The full file-by-file list, with a clickable link for every file, is in: Table of Contents — All Works for Google Keep (2026-11-02).md, and in Research Index — Everything Shareable (2026-10-30).md
+
+PUBLIC LINKS ALREADY ISSUED (anyone with the link can download, expiring)
+- Full Transcription, first segment: https://muse.ai/files/1214464328409555/992326760584637/sl949ap55rhufsc92qic8cm0/Full_Transcription___Main_Chat__2026-11-02_.md — expires Nov 4, late afternoon CST
+- Updated Synopsis: https://muse.ai/files/1214464328409555/2201329194599844/7smn7ltyfn8c8q1db0n2od9i/Synopsis___Everything_We_re_Working_On__Updated__2026-11-02_.md — expires Nov 4, late afternoon CST
+- Medical Elements book: https://muse.ai/files/1214464328409555/1435872378013549/3jrt6oi7u60caokcqelhjem2/Book___Medical_Elements_and_Thoughtology___Complete__2026-11-01_.md — expires Nov 3, 1:46 PM CST
+- Medical Elements book, Google Drive (no expiry): https://drive.google.com/file/d/1a-EqCfZvpl56UAiWmB5ZA8B5R0eOW0l1/view?usp=drivesdk
+
+Note for Keep: Muse in-app links (sandbox://) open inside the signed-in Muse app; the https links above open anywhere. Keep this note as the index — open the full TOC file in Muse for a clickable link to every single file.

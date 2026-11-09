@@ -1,0 +1,7 @@
+# Mayo catalog worldwide — index sources, read 2026-11-02
+- Global capabilities: https://news.mayocliniclabs.com/international/global-capabilities/?pg=13 — open-access test catalog updated daily; MayoLINK available in eight languages; global logistics individualized per client.
+- Commercial labs: https://news.mayocliniclabs.com/commercial-laboratories/?pg=2 — "logistics and testing protocols applied uniformly for all specimens received, no matter their geographic origin"; partners have access to "full menu"; "we do not differentiate between samples".
+- International shipping guide (index): https://test.mayocliniclabs.com/-/media/it-mmfiles/Special-Instructions/D/1/F/international-shipping-guide — reference services to >3,400 hospitals/labs in >60 countries; check specimen requirements in the (single) test catalog.
+- Specialty testing (index): https://test.mayocliniclabs.com/test-catalog/specialty-testing — "testing used to diagnose and treat Mayo Clinic patients is available to patients around the world through Mayo Clinic Laboratories."
+- No country-specific Mayo ARBO catalog found; difference is exposure-based test selection, plus NY-state restriction for ABOPC, plus export/logistics limits (e.g. some countries restrict specimen export — secondary MSP Magazine note, not a catalog difference).
+- Mayo Clinic Healthcare London is a clinic, not a separate lab catalog; UK secondary source says London patients have access to Mayo Clinic Laboratories. Representative offices (e.g. Caribbean) provide no clinical care, only coordination.
